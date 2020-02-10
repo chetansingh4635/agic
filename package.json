@@ -2,9 +2,9 @@
   "name": "agic",
   "version": "0.0.1",
   "main": "app.js",
+  "desc": "first app",
   "scripts": {
-    "start": "npm i && nodejs app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodejs app.js"
   },
   "private": true,
   "engines": {
