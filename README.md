@@ -1,2 +1,0 @@
-# agic
-AGIC Website
