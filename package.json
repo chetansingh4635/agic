@@ -4,7 +4,7 @@
   "main": "app.js",
   "desc": "first app",
   "scripts": {
-    "start": "nodejs app.js"
+    "start": "node app.js"
   },
   "private": true,
   "engines": {
