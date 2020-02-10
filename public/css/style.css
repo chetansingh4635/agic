@@ -8186,7 +8186,7 @@ h1, h2, h3, h4, h5,
 
 .navbar-brand {
   font-weight: 900;
-  font-size: 24px;
+  font-size: 22px;
   padding: 0;
   line-height: 1; }
 
@@ -9685,3 +9685,12 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+    .owl-carousel
+{
+    -ms-touch-action: pan-y !important;
+    touch-action: pan-y !important;
+}
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+  -ms-touch-action: auto !important;
+      touch-action: auto !important;
+}
