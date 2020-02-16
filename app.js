@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 var favicon = require('serve-favicon')
 const app = express();
-app.use(favicon(path.join(__dirname, 'public/images', 'loc.png')))
+app.use(favicon(path.join(__dirname, 'public/images', 'logo.jpg')))
 // Serve only the static files form the dist directory
 app.use(express.static(__dirname + '/public'));
 
